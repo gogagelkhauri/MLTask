@@ -1,0 +1,9 @@
+path: /Users/goga/Documents/development/py/MLTask/datasets/unified_dataset
+train: images/train
+val: images/val
+
+names:
+  0: camel
+  1: crocodile
+  2: elephant
+  3: lion
