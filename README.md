@@ -11,6 +11,7 @@ Pillow (PIL): Image loading and format transformations
 
 📂 Project Structure
 
+```text
 MLTask/
   config/
     data_unified.yaml       - Auto-generated dataset and class mapping configuration
@@ -24,6 +25,8 @@ MLTask/
   train_pipeline.py         - Automated dataset builder and trainer
   evaluate.py               - Validation & accuracy metrics evaluator
   main.py                   - Streamlit web interface for model inference
+  ```
+
 ⚡ Quickstart Guide
 
 Follow these commands in sequence after cloning the repository.
