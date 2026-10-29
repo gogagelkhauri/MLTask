@@ -12,19 +12,18 @@ Pillow (PIL): Image loading and format transformations
 📂 Project Structure
 
 MLTask/
-├── config/
-│   └── data_unified.yaml          # Auto-generated dataset and class mapping configuration
-├── datasets/
-│   ├── raw_camel/                 # Source raw dataset folders
-│   ├── raw_elephant/              # Source raw dataset folders
-│   └── unified_dataset/           # Auto-merged unified dataset (train & val split)
-├── runs/
-│   └── segment/
-│       └── unified_run/           # Persistent output directory (contains best.pt)
-├── train_pipeline.py              # Automated dataset builder and trainer
-├── evaluate.py                    # Validation & accuracy metrics evaluator
-└── main.py                        # Streamlit web interface for model inference
-
+  config/
+    data_unified.yaml       - Auto-generated dataset and class mapping configuration
+  datasets/
+    raw_camel/              - Source raw dataset folder
+    raw_elephant/           - Source raw dataset folder
+    unified_dataset/        - Auto-merged unified dataset (train & val split)
+  runs/
+    segment/
+      unified_run/          - Persistent output directory (contains best.pt)
+  train_pipeline.py         - Automated dataset builder and trainer
+  evaluate.py               - Validation & accuracy metrics evaluator
+  main.py                   - Streamlit web interface for model inference
 ⚡ Quickstart Guide
 
 Follow these commands in sequence after cloning the repository.
