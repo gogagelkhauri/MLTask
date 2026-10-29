@@ -25,7 +25,6 @@ MLTask/
 ├── evaluate.py                    # Validation & accuracy metrics evaluator
 └── main.py                        # Streamlit web interface for model inference
 
-
 ⚡ Quickstart Guide
 
 Follow these commands in sequence after cloning the repository.
