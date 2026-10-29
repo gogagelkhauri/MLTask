@@ -1,4 +1,4 @@
-YOLOv8 Unified Object Segmentation Pipeline
+ML Task
 
 An automated, single-workflow YOLOv8 instance segmentation system. This repository provides end-to-end dataset merging, model training, accuracy evaluation, and interactive Streamlit web inference.
 
